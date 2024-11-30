@@ -1,9 +1,9 @@
 body {
     display: flex;
     flex-direction: column;
-    flex: auto;
     justify-content: space-between;
     min-height: 100vh;
+    margin: 0;
 }
 
 * {
@@ -15,10 +15,37 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    align-self: stretch;
+    height: 100px;
+    flex-shrink: 0;
+    margin-bottom: 0;
 }
 
 ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
+}
+
+
+.content1 {
+    display: flex;
+    align-self: stretch;
+}
+
+.content1left {
+    padding: 80px 30px;
+    padding-left: 100px;
+}
+
+
+.content2 {
+    background-color: white;
+    align-self: stretch;
+}
+
+.pagetop {
+    background-color: rgb(70, 70, 136);
+    color: white;
+    padding: 10px 60px 50px 60px;
 }
