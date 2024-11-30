@@ -40,7 +40,23 @@ ul {
 
 
 .content2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.cards {
+    display: flex;
+    flex: auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 180px;
+    margin: 30px;
 }
 
 .pagetop {
@@ -56,4 +72,18 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: rgb(70, 70, 136);
+    color: grey;
+}
+
+
+.signup {
+    margin: 40px 120px;
+    background-color: rgb(65, 128, 180);
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.signupleft {
+    flex-grow: 3;
 }
