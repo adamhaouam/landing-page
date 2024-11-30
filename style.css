@@ -2,8 +2,23 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
+    justify-content: space-between;
+    min-height: 100vh;
 }
 
 * {
     border: red 1px solid;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
 }
