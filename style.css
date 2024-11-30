@@ -40,12 +40,20 @@ ul {
 
 
 .content2 {
-    background-color: white;
-    align-self: stretch;
+
 }
 
 .pagetop {
     background-color: rgb(70, 70, 136);
     color: white;
     padding: 10px 60px 50px 60px;
+}
+
+.footer {
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 70, 136);
 }
