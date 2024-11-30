@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+* {
+    border: red 1px solid;
+}
