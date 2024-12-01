@@ -4,6 +4,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     margin: 0;
+    font-family: 'Roboto';
 }
 
 * {
@@ -19,6 +20,8 @@ body {
     height: 100px;
     flex-shrink: 0;
     margin-bottom: 0;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 ul {
@@ -60,8 +63,8 @@ ul {
 }
 
 .pagetop {
-    background-color: rgb(70, 70, 136);
-    color: white;
+    background-color: #1F2937;
+    color: #E5E7EB;
     padding: 10px 60px 50px 60px;
 }
 
@@ -71,7 +74,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(70, 70, 136);
+    background-color: #1F2937;
     color: grey;
 }
 
@@ -86,4 +89,10 @@ ul {
 
 .signupleft {
     flex-grow: 3;
+}
+
+h2 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
 }
