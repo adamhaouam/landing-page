@@ -46,7 +46,7 @@ ul {
 
 .cardpic {
     border-radius: 25px;
-    border: solid 2px #3882f6;
+    border: solid 2px #3882F6;
 }
 
 
@@ -93,15 +93,36 @@ ul {
 
 .signup {
     margin: 40px 120px;
-    background-color: rgb(65, 128, 180);
+    background-color: #3882F6;
     padding: 10px 40px;
     display: flex;
-    justify-content: center;
+    align-items: center;
+    justify-content:space-around;
+    padding: 0;
+    border-radius: 25px;
+    flex: auto;
+    width: 1000px;
+    padding: 20px;
+    margin: 30px 100px 50px;
 }
 
-.signupleft {
-    flex-grow: 3;
+.signtext {
+    margin: 3px;
+    color: #E5E7EB;
 }
+
+.signupbutton2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    width: 130px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bolder;
+    border-radius: 10px;
+    border: #E5E7EB solid 2px;
+}
+
+
 
 h2 {
     font-size: 48px;
@@ -128,3 +149,4 @@ h2 {
 .quotesource {
     align-self: flex-end;
 }
+
