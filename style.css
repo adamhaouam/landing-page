@@ -8,12 +8,10 @@ body {
 }
 
 
-
 .header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    align-self: stretch;
     height: 100px;
     flex-shrink: 0;
     margin-bottom: 0;
@@ -94,6 +92,7 @@ ul {
     padding: 10px 40px;
     display: flex;
     align-items: center;
+    align-self: center;
     justify-content:space-around;
     padding: 0;
     border-radius: 25px;
@@ -101,6 +100,8 @@ ul {
     width: 1000px;
     padding: 20px;
     margin: 30px 100px 50px;
+    max-width: 1000px;
+    max-height: 100px;
 }
 
 .signtext {
