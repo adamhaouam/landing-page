@@ -112,3 +112,22 @@ h2 {
     color: #f9faf8;
     font-weight: 900;
 }
+
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quote {
+    font-size: 36px;
+    font-style:  italic ;
+    font-weight: lighter;
+    max-width: 1400px;
+}
+
+.quotesource {
+    align-self: flex-end;
+}
